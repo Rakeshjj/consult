@@ -1,0 +1,49 @@
+#map {
+    position: relative;
+    // height: 45vh;
+    height: 65vh;
+    width: 100%;
+}
+
+
+
+.fo {
+    position: relative;
+    background: #000;
+    height: 26px;
+}
+
+.fl {
+    position: relative;
+    font-family: serif;
+    font-size: 12px;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+@media (max-width:370px) {
+    .fl {
+        position: relative;
+        font-family: serif;
+        font-size: 8px;
+        letter-spacing: 0.02rem;
+    }
+}
+@media (min-width:1024px) and (max-width:1440px) {
+    #map {
+        position: relative;
+        height: 30vh;
+        width: 100%;
+    }
+}
+@media only screen and  (min-width:280.4px)
+{
+    .fl {
+        position: relative;
+        font-family: serif;
+        font-size: 12px;
+        letter-spacing: 0.02rem;
+    }
+}
